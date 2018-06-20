@@ -8,7 +8,7 @@ DisableWiFiSense
 DisableWebSearch
 DisableAppSuggestions
 DisableActivityHistory
-DisableBackgroundApps
+# DisableBackgroundApps
 DisableLocationTracking
 DisableMapUpdates
 DisableFeedback
@@ -27,7 +27,7 @@ DisableAdminShares
 # DisableSMB1
 # DisableSMBServer
 # DisableLLMNR
-SetCurrentNetworkPrivate
+# SetCurrentNetworkPrivate
 # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst
 # EnableCtrldFolderAccess
@@ -37,7 +37,7 @@ SetCurrentNetworkPrivate
 EnableF8BootMenu
 SetDEPOptOut
 # EnableCIMemoryIntegrity
-DisableScriptHost
+# DisableScriptHost
 EnableDotNetStrongCrypto
 # EnableMeltdownCompatFlag
 
@@ -62,46 +62,46 @@ DisableAutorun
 
 DisableActionCenter
 HideAccountProtectionWarn
-DisableLockScreen
+# DisableLockScreen
 # DisableLockScreenRS1
-HideNetworkFromLockScreen
-HideShutdownFromLockScreen
+# HideNetworkFromLockScreen
+# HideShutdownFromLockScreen
 DisableStickyKeys
 ShowTaskManagerDetails
 ShowFileOperationsDetails
 # EnableFileDeleteConfirm
 HideTaskbarSearch
 HideTaskView
-ShowSmallTaskbarIcons
-SetTaskbarCombineWhenFull
+# ShowSmallTaskbarIcons
+# SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon
-ShowTrayIcons
+# ShowTrayIcons
 DisableSearchAppInStore
 DisableNewAppPrompt
 # SetControlPanelSmallIcons
-SetVisualFXPerformance
+# SetVisualFXPerformance
 # AddENKeyboard
 # EnableNumlock
 
 ShowKnownExtensions
-ShowHiddenFiles
+# ShowHiddenFiles
 HideSelectCheckboxes
 HideSyncNotifications
 HideRecentShortcuts
 SetExplorerThisPC
-ShowThisPCOnDesktop
+# ShowThisPCOnDesktop
 # ShowUserFolderOnDesktop
-HideDesktopFromThisPC
+# HideDesktopFromThisPC
 # HideDesktopFromExplorer
-HideDocumentsFromThisPC
+# HideDocumentsFromThisPC
 # HideDocumentsFromExplorer
-HideDownloadsFromThisPC
+# HideDownloadsFromThisPC
 # HideDownloadsFromExplorer
-HideMusicFromThisPC
+# HideMusicFromThisPC
 # HideMusicFromExplorer
-HidePicturesFromThisPC
+# HidePicturesFromThisPC
 # HidePicturesFromExplorer
-HideVideosFromThisPC
+# HideVideosFromThisPC
 # HideVideosFromExplorer
 Hide3DObjectsFromThisPC
 # Hide3DObjectsFromExplorer
