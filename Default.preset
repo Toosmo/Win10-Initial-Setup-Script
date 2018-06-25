@@ -35,7 +35,7 @@ DisableAdminShares
 # DisableDefender
 # DisableDefenderCloud
 EnableF8BootMenu
-SetDEPOptOut
+# SetDEPOptOut
 # EnableCIMemoryIntegrity
 # DisableScriptHost
 EnableDotNetStrongCrypto
@@ -47,7 +47,7 @@ DisableUpdateRestart
 # DisableHomeGroups
 DisableSharedExperiences
 DisableRemoteAssistance
-EnableRemoteDesktop
+# EnableRemoteDesktop
 DisableAutoplay
 DisableAutorun
 # EnableStorageSense
@@ -58,9 +58,9 @@ DisableAutorun
 # EnableHibernation
 # DisableSleepButton
 # DisableSleepTimeout
-# DisableFastStartup
+DisableFastStartup
 
-DisableActionCenter
+# DisableActionCenter
 HideAccountProtectionWarn
 # DisableLockScreen
 # DisableLockScreenRS1
@@ -122,8 +122,8 @@ DisableEdgeShortcutCreation
 # UninstallWorkFolders
 # InstallLinuxSubsystem
 # InstallHyperV
-SetPhotoViewerAssociation
-AddPhotoViewerOpenWith
+# SetPhotoViewerAssociation
+# AddPhotoViewerOpenWith
 # UninstallPDFPrinter
 UninstallXPSPrinter
 RemoveFaxPrinter
