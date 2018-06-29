@@ -44,7 +44,7 @@ $tweaks = @(
 	# "DisableFirewall",            # "EnableFirewall",
 	# "DisableDefender",            # "EnableDefender",
 	# "DisableDefenderCloud",       # "EnableDefenderCloud",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
+	# "EnableF8BootMenu",             # "DisableF8BootMenu",
 	# "SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	# "DisableScriptHost",            # "EnableScriptHost",

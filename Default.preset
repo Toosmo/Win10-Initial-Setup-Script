@@ -34,7 +34,7 @@ DisableAdminShares
 # DisableFirewall
 # DisableDefender
 # DisableDefenderCloud
-EnableF8BootMenu
+# EnableF8BootMenu
 # SetDEPOptOut
 # EnableCIMemoryIntegrity
 # DisableScriptHost
