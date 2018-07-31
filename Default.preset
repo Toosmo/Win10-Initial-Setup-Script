@@ -53,7 +53,7 @@ DisableAutorun
 # EnableStorageSense
 # DisableDefragmentation
 # DisableSuperfetch
-# DisableIndexing
+DisableIndexing
 # SetBIOSTimeUTC
 # EnableHibernation
 # DisableSleepButton
