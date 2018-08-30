@@ -27,6 +27,7 @@ DisableAdminShares
 # DisableSMB1
 # DisableSMBServer
 # DisableLLMNR
+# DisableNCSIProbe
 # SetCurrentNetworkPrivate
 # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst
@@ -82,6 +83,9 @@ DisableNewAppPrompt
 # SetVisualFXPerformance
 # AddENKeyboard
 # EnableNumlock
+# SetSoundSchemeNone
+# DisableStartupSound
+# DisableChangingSoundScheme
 
 ShowKnownExtensions
 # ShowHiddenFiles
@@ -89,6 +93,7 @@ HideSelectCheckboxes
 HideSyncNotifications
 HideRecentShortcuts
 SetExplorerThisPC
+# HideQuickAccess
 # ShowThisPCOnDesktop
 # ShowUserFolderOnDesktop
 # HideDesktopFromThisPC
