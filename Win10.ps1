@@ -1,7 +1,7 @@
 ##########
-# Win10 / WinServer2016 Initial Setup Script - Main execution loop
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - Main execution loop
 # Author: Disassembler <disassembler@dasm.cz>
-# Version: v3.1, 2018-10-04
+# Version: v3.3, 2018-10-22
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -15,6 +15,16 @@ Function RequireAdmin {
 
 $tweaks = @()
 $PSCommandArgs = @()
+
+Function AddOrRemoveTweak($tweak) {
+	If ($tweak[0] -eq "!") {
+		# If the name starts with exclamation mark (!), exclude the tweak from selection
+		$global:tweaks = $global:tweaks | Where-Object { $_ -ne $tweak.Substring(1) }
+	} ElseIf ($tweak -ne "") {
+		# Otherwise add the tweak
+		$global:tweaks += $tweak
+	}
+}
 
 # Parse and resolve paths in passed arguments
 $i = 0
@@ -30,11 +40,11 @@ While ($i -lt $args.Length) {
 		$preset = Resolve-Path $args[++$i]
 		$PSCommandArgs += "-preset `"$preset`""
 		# Load tweak names from the preset file
-		$tweaks += Get-Content $preset -ErrorAction Stop | ForEach-Object { $_.Split("#")[0].Trim() } | Where-Object { $_ -ne "" }
+		Get-Content $preset -ErrorAction Stop | ForEach-Object { AddOrRemoveTweak($_.Split("#")[0].Trim()) }
 	} Else {
 		$PSCommandArgs += $args[$i]
 		# Load tweak names from command line
-		$tweaks += $args[$i]
+		AddOrRemoveTweak($args[$i])
 	}
 	$i++
 }
